@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Victor Charles — Desenvolvedor Fullstack. Portfólio, projetos e contato."
+    />
+    <meta name="theme-color" content="#000000" />
+    <title>Victor Charles | Desenvolvedor Fullstack</title>
+    <!-- Colocar os metas info-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css"
+    />
+    <link rel="stylesheet" href="css/page.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/068a0ea6b8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="home">
+    <header class="header" role="banner">
+      <a href="index.html" class="header-logo">
+        <!--img src="imagina um logo com minhas iniciais(Vó fazer ainda)" alt="VC"-->
+        <h1 class="header-title">
+          <span itemprop="author"
+            >Victor<br />
+            Charles</span
+          >
+        </h1>
+      </a>
+      <nav class="header-menu" aria-label="Navegação principal">
+        <a href="index.html" aria-current="page">Início</a>
+        <a href="portifolio.html">Portfólio</a>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="post">
+        <article class="post-content post-content--intro">
+          <p>Olá!</p>
+          <p>
+            Meu nome é<br />
+            <strong>Victor Charles</strong>.
+          </p>
+          <p>
+            Sou <strong>programador Fullstack</strong>,<br />
+            <strong>gamer</strong>, <strong> apaixonado por tecnologia </strong>
+            <br />
+            e <strong>estou sempre aprendendo algo novo</strong>.
+          </p>
+        </article>
+
+        <div class="home-actions" aria-label="Ações rápidas">
+          <a class="button" href="portifolio.html">Ver portfólio</a>
+          <a class="button button--ghost" href="#contato">Entrar em contato</a>
+          <a class="button button--ghost" href="#" aria-disabled="true"
+            >Baixar CV (em breve)</a
+          >
+        </div>
+
+        <section class="home-section" aria-labelledby="skills-title">
+          <h2 class="section-title" id="skills-title">Skills</h2>
+          <p class="section-subtitle">
+            Principais tecnologias e áreas de atuação.
+          </p>
+          <div class="post-tags" aria-label="Tecnologias">
+            <span>Java</span>
+            <span>TypeScript</span>
+            <span>Node</span>
+            <span>NestJs</span>
+            <span>SQL</span>
+            <span>Git</span>
+            <span>APIs REST</span>
+            <span>Back-end</span>
+            <span>ERPs</span>
+          </div>
+        </section>
+
+        <section
+          class="home-section"
+          id="contato"
+          aria-labelledby="contato-title"
+        >
+          <h2 class="section-title" id="contato-title">Contato</h2>
+          <p class="section-subtitle">
+            Vamos conversar sobre oportunidades e projetos.
+          </p>
+          <ul class="contact-list">
+            <li class="email-item">
+              <strong>Email:</strong>
+              <span
+                class="contact-email"
+                role="button"
+                tabindex="0"
+                title="Clique para copiar"
+                aria-label="Copiar e-mail"
+                data-copy-email
+                data-email="vcharles923@gmail.com"
+              >
+                vcharles923@gmail.com
+              </span>
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/victorcharle/"
+                >/in/victorcharle</a
+              >
+            </li>
+            <li>
+              <strong>GitHub:</strong>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/VictorCharles"
+                >@VictorCharles</a
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    <footer class="footer" role="contentinfo">
+      <p class="footer-copy">
+        <span data-year>2026</span>
+        <i class="uil uil-copyright"></i>
+        Victor Charles
+      </p>
+      <nav class="footer-social">
+        <a
+          class="facebook"
+          title="Facebook"
+          aria-label="Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/victor.charle/"
+        >
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a
+          class="twitter"
+          title="Twitter"
+          aria-label="Twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/CQNMLA"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          class="github"
+          title="Github"
+          aria-label="GitHub"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/VictorCharles"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          class="linkedin"
+          title="Linkedin"
+          aria-label="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/victorcharle/"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </nav>
+    </footer>
+
+    <div
+      id="toast"
+      class="toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
+    <script src="js/site.js"></script>
+  </body>
+</html>
