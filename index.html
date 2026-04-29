@@ -40,12 +40,12 @@
     <header class="header" role="banner">
       <a href="index.html" class="header-logo">
         <!--img src="imagina um logo com minhas iniciais(Vó fazer ainda)" alt="VC"-->
-        <h1 class="header-title">
+        <span class="header-title">
           <span itemprop="author"
             >Victor<br />
             Charles</span
           >
-        </h1>
+        </span>
       </a>
       <nav class="header-menu" aria-label="Navegação principal">
         <a href="index.html" aria-current="page">Início</a>
@@ -55,20 +55,49 @@
     <main class="main">
       <section class="post home-shell">
         <article class="post-content post-content--intro home-intro">
-          <p class="home-intro__eyebrow" data-home-eyebrow></p>
-          <p>
-            Meu nome é<br />
-            <strong data-home-name>Victor Charles</strong>.
+          <p class="home-intro__eyebrow" data-home-eyebrow>
+            Desenvolvedor fullstack
           </p>
-          <p data-home-summary></p>
-          <p class="home-terminal" data-home-terminal></p>
+          <h1 class="home-intro__title">
+            Construo APIs escaláveis e sistemas observáveis
+          </h1>
+          <p class="home-intro__name">
+            Meu nome é <strong data-home-name>Victor Charles</strong>.
+          </p>
+          <p class="home-intro__summary" data-home-summary>
+            Desenvolvedor fullstack focado em APIs escaláveis, observabilidade e
+            automação.
+          </p>
+          <div
+            class="post-tags home-proof"
+            aria-label="Provas rápidas"
+            data-home-proof
+          >
+            <span>40% de redução de latência</span>
+            <span>3 frentes: APIs, automação e observabilidade</span>
+            <span>Projetos desde 2018</span>
+          </div>
         </article>
 
         <div
           class="home-actions"
           aria-label="Ações rápidas"
           data-home-actions
-        ></div>
+        >
+          <a class="button" href="#contato">Vamos conversar</a>
+          <a
+            class="button button--ghost"
+            href="https://github.com/VictorCharles"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Ver meu GitHub</a
+          >
+          <a
+            class="button button--ghost"
+            href="mailto:vcharles923@gmail.com?subject=Portf%C3%B3lio%20Victor%20Charles"
+            >Agendar uma call</a
+          >
+        </div>
 
         <section class="home-grid home-section" aria-labelledby="skills-title">
           <article class="home-panel">
@@ -76,7 +105,9 @@
               class="section-title"
               id="skills-title"
               data-home-focus-title
-            ></h2>
+            >
+              Foco atual
+            </h2>
             <p class="section-subtitle">
               Tecnologias e frentes que aparecem com frequência nas minhas
               entregas.
@@ -85,7 +116,11 @@
               class="post-tags home-pill-list"
               aria-label="Tecnologias"
               data-home-focus-list
-            ></div>
+            >
+              <span>APIs com NestJS</span>
+              <span>Observabilidade, logs e tracing</span>
+              <span>Docker e automação de ambiente</span>
+            </div>
           </article>
 
           <article class="home-panel">
@@ -93,8 +128,15 @@
               class="section-title"
               id="resolve-title"
               data-home-resolve-title
-            ></h2>
-            <ul class="home-list" data-home-resolve-list></ul>
+            >
+              O que eu resolvo
+            </h2>
+            <ul class="home-list" data-home-resolve-list>
+              <li>APIs escaláveis com NestJS</li>
+              <li>Integração com ERPs</li>
+              <li>Sistemas com alta observabilidade</li>
+              <li>Automação de processos</li>
+            </ul>
           </article>
         </section>
 
@@ -103,17 +145,37 @@
             class="section-title"
             id="metrics-title"
             data-home-metrics-title
-          ></h2>
+          >
+            Métricas
+          </h2>
           <p class="section-subtitle">
             Números e sinais de impacto que reforçam o tipo de entrega que eu
             busco.
           </p>
-          <ul class="metric-grid" data-home-metrics-list></ul>
+          <ul class="metric-grid" data-home-metrics-list>
+            <li class="metric-card">
+              <strong>40%</strong>
+              <span>de redução de latência em otimizações pontuais</span>
+            </li>
+            <li class="metric-card">
+              <strong>3 frentes</strong>
+              <span>APIs, automação e observabilidade</span>
+            </li>
+            <li class="metric-card">
+              <strong>2018+</strong>
+              <span>histórico de projetos em contextos diferentes</span>
+            </li>
+          </ul>
         </section>
 
         <section class="home-section home-about" aria-labelledby="about-title">
-          <h2 class="section-title" id="about-title" data-home-about-title></h2>
-          <p class="home-about__text" data-home-about-text></p>
+          <h2 class="section-title" id="about-title" data-home-about-title>
+            Sobre mim
+          </h2>
+          <p class="home-about__text" data-home-about-text>
+            Gosto de resolver problemas complexos no backend, principalmente em
+            performance, integrações e observabilidade.
+          </p>
         </section>
 
         <section class="home-section" aria-labelledby="develop-title">
@@ -121,7 +183,9 @@
             class="section-title"
             id="develop-title"
             data-home-develop-title
-          ></h2>
+          >
+            Como eu desenvolvo sistemas
+          </h2>
           <p class="section-subtitle">
             Diferencial técnico que ajuda a deixar sistemas mais previsíveis e
             observáveis.
@@ -130,7 +194,11 @@
             class="post-tags home-pill-list"
             aria-label="Como eu desenvolvo sistemas"
             data-home-develop-list
-          ></div>
+          >
+            <span>Logging estruturado (Pino + OpenTelemetry)</span>
+            <span>Métricas com Prometheus</span>
+            <span>Tracing distribuído</span>
+          </div>
         </section>
 
         <section
@@ -139,7 +207,7 @@
         >
           <h2 class="section-title" id="terminal-title">Sinal de trabalho</h2>
           <div class="home-terminal-box">
-            <pre class="home-terminal" data-home-terminal></pre>
+            <pre class="home-terminal" data-home-terminal>> status: construindo coisas úteis com foco em performance e observabilidade</pre>
           </div>
         </section>
 
@@ -176,15 +244,6 @@
                 >/in/victorcharle</a
               >
             </li>
-            <li>
-              <strong>GitHub:</strong>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/VictorCharles"
-                >@VictorCharles</a
-              >
-            </li>
           </ul>
         </section>
       </section>
@@ -196,26 +255,6 @@
         Victor Charles
       </p>
       <nav class="footer-social">
-        <a
-          class="facebook"
-          title="Facebook"
-          aria-label="Facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.facebook.com/victor.charle/"
-        >
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a
-          class="twitter"
-          title="Twitter"
-          aria-label="Twitter"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://twitter.com/CQNMLA"
-        >
-          <i class="fab fa-twitter"></i>
-        </a>
         <a
           class="github"
           title="Github"

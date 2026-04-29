@@ -15,6 +15,7 @@
     eyebrow: "[data-home-eyebrow]",
     name: "[data-home-name]",
     summary: "[data-home-summary]",
+    proofList: "[data-home-proof]",
     terminal: "[data-home-terminal]",
     actions: "[data-home-actions]",
     focusTitle: "[data-home-focus-title]",
@@ -204,6 +205,11 @@
     const actions = document.querySelector(HOME_SELECTORS.actions);
     if (actions) {
       actions.innerHTML = renderCtas(hero.cta);
+    }
+
+    const proofList = document.querySelector(HOME_SELECTORS.proofList);
+    if (proofList) {
+      proofList.innerHTML = renderPills(hero.proof);
     }
 
     const focusList = document.querySelector(HOME_SELECTORS.focusList);

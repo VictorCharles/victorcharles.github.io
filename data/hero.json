@@ -2,42 +2,50 @@
   "name": "Victor Charles",
   "ey": "Projetos com contexto, impacto e nível técnico",
   "title": "Portfólio",
-  "subtitle": "Destaques primeiro, histórico depois.",
+  "subtitle": "Desenvolvedor fullstack focado em APIs escaláveis, observabilidade e automação.",
   "focusTitle": "Foco atual",
   "focus": [
     "APIs com NestJS",
     "Observabilidade, logs e tracing",
-    "Docker e automação de ambiente"
+    "Infraestrutura como código (IaC)"
   ],
   "solveTitle": "O que eu resolvo",
   "solve": [
-    "APIs escaláveis com NestJS",
-    "Integração com ERPs",
-    "Sistemas com alta observabilidade",
-    "Automação de processos"
+    "APIs lentas ou difíceis de evoluir",
+    "Integrações com ERPs e outros sistemas",
+    "Falta de logs, métricas e tracing",
+    "Rotinas manuais que pedem automação"
   ],
   "metricsTitle": "Métricas",
   "metrics": [
     {
-      "value": "40%",
+      "value": "60%",
       "label": "de redução de latência em otimizações pontuais"
     },
     {
-      "value": "OpenTelemetry",
-      "label": "observabilidade e tracing distribuído"
+      "value": "5 frentes",
+      "label": "APIs, automação, observabilidade, IAC e operacional"
     },
     {
-      "value": "Alta carga",
-      "label": "sistemas estáveis em picos de uso"
+      "value": "2023+",
+      "label": "histórico de projetos profissionais em contextos diferentes"
     }
   ],
   "aboutTitle": "Sobre mim",
-  "about": "Gosto de resolver problemas complexos no backend, principalmente em performance, integrações e observabilidade.",
+  "about": "Gosto de resolver problemas complexos no backend, principalmente em performance, integrações e observabilidade. Tenho experiência com APIs REST e GraphQL, automação de rotinas, implementação de logging estruturado, métricas e tracing distribuído. Estou sempre buscando aprender novas tecnologias e me desafiar com projetos que tenham impacto real.",
   "developTitle": "Como eu desenvolvo sistemas",
   "develop": [
+    "Automação de rotinas com Node.js e Python",
+    "APIs REST e GraphQL com NestJS",
     "Logging estruturado (Pino + OpenTelemetry)",
     "Métricas com Prometheus",
-    "Tracing distribuído"
+    "Tracing distribuído",
+    "Testes automatizados e integração contínua em toda a base de código"
+  ],
+  "proof": [
+    "60% de redução de latência",
+    "5 frentes: APIs, automação, observabilidade, infraestrutura como código e operacional",
+    "Atuando desde 2023"
   ],
   "cta": [
     {
@@ -51,8 +59,8 @@
     },
     {
       "label": "Agendar uma call",
-      "href": "mailto:vcharles923@gmail.com?subject=Portf%C3%B3lio%20Victor%20Charles"
+      "href": "mailto:vcharles923@gmail.com?subject=Queria%20conversar%20sobre%20oportunidades%20e%20projetos"
     }
   ],
-  "terminal": "> status: construindo coisas úteis com foco em performance e observabilidade"
+  "terminal": "> status: construindo coisas úteis com foco em performance e observabilidade \n> aprendendo: Mobile, DevOps, Cloud \n> buscando: projetos desafiadores e impacto real"
 }

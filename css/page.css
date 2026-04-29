@@ -146,6 +146,36 @@
   color: #00ff15;
 }
 
+.home-intro__title {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.04rem;
+}
+
+.home-intro__name {
+  margin: 0 0 0.75rem;
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.home-intro__name strong {
+  color: #fff;
+}
+
+.home-intro__summary {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.home-proof {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
 .home-terminal {
   margin: 0;
   padding-top: 0.5rem;
