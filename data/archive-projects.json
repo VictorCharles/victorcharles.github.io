@@ -1,0 +1,88 @@
+{
+  "ey": "Contexto histórico",
+  "title": "Outros projetos",
+  "subtitle": "Materiais anteriores mantidos para contexto, sem competir com o que você entrega hoje.",
+  "years": [
+    {
+      "year": "2020",
+      "items": [
+        {
+          "ey": "Privado",
+          "title": "Automação interna de processos",
+          "status": "private",
+          "summary": "Projeto confidencial desenvolvido para automatizar um fluxo interno específico.",
+          "details": [
+            "Problema: organizar e automatizar um fluxo específico do cliente.",
+            "Resultado: menos esforço manual e processo mais padronizado.",
+            "Meu papel: desenvolvimento e manutenção."
+          ],
+          "tags": ["Angular", "Front-end", "Sistema interno"],
+          "links": [
+            {
+              "label": "Código",
+              "disabled": true
+            },
+            {
+              "label": "Demo",
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "items": [
+        {
+          "ey": "Mobile",
+          "title": "Ioioteca",
+          "status": "private",
+          "summary": "Projeto do curso Técnico de Informática (Etec): app para troca e descoberta de livros.",
+          "details": [
+            "O que é: app mobile com foco em match entre usuários.",
+            "Problema: incentivar reutilização e facilitar trocas.",
+            "Meu papel: desenvolvimento do app."
+          ],
+          "tags": ["Flutter", "Dart"],
+          "links": [
+            {
+              "label": "Código",
+              "disabled": true
+            },
+            {
+              "label": "Demo",
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "year": "2018",
+      "items": [
+        {
+          "ey": "Dados",
+          "title": "Chatbotinho",
+          "status": "private",
+          "summary": "Chatbot para recomendar uma configuração de PC com base no uso informado.",
+          "details": [
+            "O que é: chatbot guiado por perguntas e regras de decisão.",
+            "Problema: ajudar usuários a escolher hardware conforme a necessidade.",
+            "Meu papel: lógica, treinamento e interface."
+          ],
+          "tags": ["Python", "JavaScript", "Análise de dados"],
+          "links": [
+            {
+              "label": "Código",
+              "disabled": true
+            },
+            {
+              "label": "Demo",
+              "disabled": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

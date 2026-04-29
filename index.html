@@ -5,11 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Victor Charles — Desenvolvedor Fullstack. Portfólio, projetos e contato."
+      content="Victor Charles — desenvolvedor fullstack focado em APIs, observabilidade, automação e integrações com ERPs."
     />
     <meta name="theme-color" content="#000000" />
+    <meta
+      property="og:title"
+      content="Victor Charles | Desenvolvedor Fullstack"
+    />
+    <meta
+      property="og:description"
+      content="Portfólio com foco em APIs escaláveis, observabilidade, automação e projetos em destaque."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000000'/%3E%3Cpath d='M18 45V19h7l7 12 7-12h7v26h-7V31l-7 12-7-12v14z' fill='%2300ff15'/%3E%3C/svg%3E"
+    />
     <title>Victor Charles | Desenvolvedor Fullstack</title>
-    <!-- Colocar os metas info-->
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css"
@@ -39,44 +53,93 @@
       </nav>
     </header>
     <main class="main">
-      <section class="post">
-        <article class="post-content post-content--intro">
-          <p>Olá!</p>
+      <section class="post home-shell">
+        <article class="post-content post-content--intro home-intro">
+          <p class="home-intro__eyebrow" data-home-eyebrow></p>
           <p>
             Meu nome é<br />
-            <strong>Victor Charles</strong>.
+            <strong data-home-name>Victor Charles</strong>.
           </p>
-          <p>
-            Sou <strong>programador Fullstack</strong>,<br />
-            <strong>gamer</strong>, <strong> apaixonado por tecnologia </strong>
-            <br />
-            e <strong>estou sempre aprendendo algo novo</strong>.
-          </p>
+          <p data-home-summary></p>
+          <p class="home-terminal" data-home-terminal></p>
         </article>
 
-        <div class="home-actions" aria-label="Ações rápidas">
-          <a class="button" href="portifolio.html">Ver portfólio</a>
-          <a class="button button--ghost" href="#contato">Entrar em contato</a>
-          <a class="button button--ghost" href="#" aria-disabled="true"
-            >Baixar CV (em breve)</a
-          >
-        </div>
+        <div
+          class="home-actions"
+          aria-label="Ações rápidas"
+          data-home-actions
+        ></div>
 
-        <section class="home-section" aria-labelledby="skills-title">
-          <h2 class="section-title" id="skills-title">Skills</h2>
+        <section class="home-grid home-section" aria-labelledby="skills-title">
+          <article class="home-panel">
+            <h2
+              class="section-title"
+              id="skills-title"
+              data-home-focus-title
+            ></h2>
+            <p class="section-subtitle">
+              Tecnologias e frentes que aparecem com frequência nas minhas
+              entregas.
+            </p>
+            <div
+              class="post-tags home-pill-list"
+              aria-label="Tecnologias"
+              data-home-focus-list
+            ></div>
+          </article>
+
+          <article class="home-panel">
+            <h2
+              class="section-title"
+              id="resolve-title"
+              data-home-resolve-title
+            ></h2>
+            <ul class="home-list" data-home-resolve-list></ul>
+          </article>
+        </section>
+
+        <section class="home-section" aria-labelledby="metrics-title">
+          <h2
+            class="section-title"
+            id="metrics-title"
+            data-home-metrics-title
+          ></h2>
           <p class="section-subtitle">
-            Principais tecnologias e áreas de atuação.
+            Números e sinais de impacto que reforçam o tipo de entrega que eu
+            busco.
           </p>
-          <div class="post-tags" aria-label="Tecnologias">
-            <span>Java</span>
-            <span>TypeScript</span>
-            <span>Node</span>
-            <span>NestJs</span>
-            <span>SQL</span>
-            <span>Git</span>
-            <span>APIs REST</span>
-            <span>Back-end</span>
-            <span>ERPs</span>
+          <ul class="metric-grid" data-home-metrics-list></ul>
+        </section>
+
+        <section class="home-section home-about" aria-labelledby="about-title">
+          <h2 class="section-title" id="about-title" data-home-about-title></h2>
+          <p class="home-about__text" data-home-about-text></p>
+        </section>
+
+        <section class="home-section" aria-labelledby="develop-title">
+          <h2
+            class="section-title"
+            id="develop-title"
+            data-home-develop-title
+          ></h2>
+          <p class="section-subtitle">
+            Diferencial técnico que ajuda a deixar sistemas mais previsíveis e
+            observáveis.
+          </p>
+          <div
+            class="post-tags home-pill-list"
+            aria-label="Como eu desenvolvo sistemas"
+            data-home-develop-list
+          ></div>
+        </section>
+
+        <section
+          class="home-section home-section--terminal"
+          aria-labelledby="terminal-title"
+        >
+          <h2 class="section-title" id="terminal-title">Sinal de trabalho</h2>
+          <div class="home-terminal-box">
+            <pre class="home-terminal" data-home-terminal></pre>
           </div>
         </section>
 
@@ -87,7 +150,7 @@
         >
           <h2 class="section-title" id="contato-title">Contato</h2>
           <p class="section-subtitle">
-            Vamos conversar sobre oportunidades e projetos.
+            Vamos conversar sobre oportunidades, sistemas e integrações.
           </p>
           <ul class="contact-list">
             <li class="email-item">

@@ -42,178 +42,55 @@
     </header>
     <main class="main">
       <section class="post">
-        <header class="page-header">
-          <h2 class="page-header__title">Portfolio</h2>
-          <h3 class="page-header__subtitle">Últimos trabalhos realizados.</h3>
+        <header class="page-header portfolio-hero">
+          <p class="portfolio-hero__eyebrow" data-portfolio-hero-eyebrow></p>
+          <h2 class="page-header__title" data-portfolio-hero-title></h2>
+          <h3 class="page-header__subtitle" data-portfolio-hero-subtitle></h3>
+          <div class="portfolio-hero__panel" aria-label="Foco técnico atual">
+            <div
+              class="portfolio-hero__panel-title"
+              data-portfolio-focus-title
+            ></div>
+            <ul class="portfolio-focus-list" data-portfolio-focus-list></ul>
+          </div>
         </header>
-        <h2 class="post-list__title" id="2020-ref">2020</h2>
-        <ul class="post-list">
-          <li class="post-card">
-            <article class="post-card__content">
-              <header class="post-card__header">
-                <h3 class="post-card__title">Projeto (não divulgado)</h3>
-                <p class="post-card__status" aria-label="Status do projeto">
-                  <span class="badge badge--private">Privado</span>
-                </p>
-              </header>
-              <p class="post-card__excerpt">
-                Projeto desenvolvido para um contexto que não posso divulgar
-                publicamente.
-              </p>
-              <ul class="post-card__details">
-                <li><strong>O que é:</strong> Aplicação web.</li>
-                <li>
-                  <strong>Problema:</strong> Automatizar e organizar um fluxo
-                  específico do cliente.
-                </li>
-                <li>
-                  <strong>Meu papel:</strong> Desenvolvimento e manutenção.
-                </li>
-              </ul>
-              <div class="post-tags" aria-label="Tecnologias">
-                <span>Front-end</span><span>Angular</span>
-              </div>
-              <div class="post-card__actions" aria-label="Links do projeto">
-                <a class="button button--disabled" href="#" aria-disabled="true"
-                  >Código</a
-                >
-                <a class="button button--disabled" href="#" aria-disabled="true"
-                  >Demo</a
-                >
-              </div>
-            </article>
-          </li>
-          <li class="post-card">
-            <article class="post-card__content">
-              <header class="post-card__header">
-                <h3 class="post-card__title">Sistema Geral de Mercadoria</h3>
-              </header>
-              <p class="post-card__excerpt">
-                ERP em Java para agilizar processos de logística e cadastro de
-                dados.
-              </p>
-              <ul class="post-card__details">
-                <li>
-                  <strong>O que é:</strong> ERP desktop para cadastro e
-                  consulta.
-                </li>
-                <li>
-                  <strong>Problema:</strong> Centralizar e padronizar cadastros
-                  de clientes/fornecedores/produtos.
-                </li>
-                <li>
-                  <strong>Meu papel:</strong> Desenvolvimento do sistema e
-                  telas.
-                </li>
-              </ul>
-              <div class="post-tags" aria-label="Tecnologias">
-                <span>JFrame</span>
-                <span>Java</span>
-                <span>ERP</span>
-              </div>
-              <div class="post-card__actions" aria-label="Links do projeto">
-                <a
-                  class="button button--ghost"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/VictorCharles/balanco-geral-de-mercadoria-Java"
-                  >Código</a
-                >
-                <a class="button button--disabled" href="#" aria-disabled="true"
-                  >Demo</a
-                >
-              </div>
-            </article>
-          </li>
-        </ul>
-        <h2 class="post-list__title" id="2019-ref">2019</h2>
-        <ul class="post-list">
-          <li class="post-card">
-            <article class="post-card__content">
-              <header class="post-card__header">
-                <h3 class="post-card__title">Ioioteca</h3>
-                <p class="post-card__status" aria-label="Status do projeto">
-                  <span class="badge badge--private">Privado</span>
-                </p>
-              </header>
-              <p class="post-card__excerpt">
-                Projeto do curso Técnico de Informática (Etec): app tipo “Tinder
-                de livros” para troca entre usuários.
-              </p>
-              <ul class="post-card__details">
-                <li>
-                  <strong>O que é:</strong> App mobile para match e troca de
-                  livros.
-                </li>
-                <li>
-                  <strong>Problema:</strong> Incentivar reutilização e facilitar
-                  trocas.
-                </li>
-                <li><strong>Meu papel:</strong> Desenvolvimento do app.</li>
-              </ul>
-              <div class="post-tags" aria-label="Tecnologias">
-                <span>Flutter</span>
-                <span>Dart</span>
-              </div>
-              <div class="post-card__actions" aria-label="Links do projeto">
-                <a class="button button--disabled" href="#" aria-disabled="true"
-                  >Código</a
-                >
-                <a class="button button--disabled" href="#" aria-disabled="true"
-                  >Demo</a
-                >
-              </div>
-            </article>
-          </li>
-        </ul>
-        <h2 class="post-list__title" id="2018-ref">2018</h2>
-        <ul class="post-list">
-          <li class="post-card">
-            <article class="post-card__content">
-              <header class="post-card__header">
-                <h3 class="post-card__title">Chatbotinho</h3>
-                <p class="post-card__status" aria-label="Status do projeto">
-                  <span class="badge badge--private">Privado</span>
-                </p>
-              </header>
-              <p class="post-card__excerpt">
-                Projeto do curso Técnico (Etec): chatbot para recomendar uma
-                configuração de PC com base no uso.
-              </p>
-              <ul class="post-card__details">
-                <li>
-                  <strong>O que é:</strong> Chatbot com base em perguntas e
-                  regras/dados.
-                </li>
-                <li>
-                  <strong>Problema:</strong> Ajudar usuários a escolherem
-                  hardware conforme necessidade.
-                </li>
-                <li>
-                  <strong>Meu papel:</strong> Treinamento/lógica e interface.
-                </li>
-              </ul>
-              <div class="post-tags" aria-label="Tecnologias">
-                <span>Python</span>
-                <span>JavaScript</span>
-                <span>Machine learning</span>
-                <span>Análise de Dados</span>
-              </div>
-              <div class="post-card__actions" aria-label="Links do projeto">
-                <a class="button button--disabled" href="#" aria-disabled="true"
-                  >Código</a
-                >
-                <a class="button button--disabled" href="#" aria-disabled="true"
-                  >Demo</a
-                >
-              </div>
-            </article>
-          </li>
-        </ul>
-        <h2 class="post-list__title" id="2017-ref">2017</h2>
-        <ul class="post-list"></ul>
-        <h2 class="post-list__title" id="2016-ref">2016</h2>
-        <ul class="post-list"></ul>
+
+        <section
+          class="portfolio-section"
+          aria-labelledby="featured-projects-title"
+        >
+          <div class="section-heading">
+            <span
+              class="section-heading__eyebrow"
+              data-portfolio-featured-eyebrow
+            ></span>
+            <h2
+              class="section-title section-title--featured"
+              id="featured-projects-title"
+              data-portfolio-featured-title
+            ></h2>
+            <p class="section-subtitle" data-portfolio-featured-subtitle></p>
+          </div>
+
+          <ul class="project-grid" data-portfolio-featured-list></ul>
+        </section>
+
+        <section
+          class="portfolio-section portfolio-section--secondary"
+          aria-labelledby="older-projects-title"
+        >
+          <div class="section-heading">
+            <span
+              class="section-heading__eyebrow"
+              data-portfolio-archive-eyebrow
+            ></span>
+            <h2 class="section-title" id="older-projects-title">
+              <span data-portfolio-archive-title></span>
+            </h2>
+            <p class="section-subtitle" data-portfolio-archive-subtitle></p>
+          </div>
+          <div data-portfolio-archive-list></div>
+        </section>
 
         <section class="home-section" aria-labelledby="portfolio-contato-title">
           <h2 class="section-title" id="portfolio-contato-title">Contato</h2>

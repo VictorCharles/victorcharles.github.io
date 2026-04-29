@@ -1,0 +1,78 @@
+{
+  "ey": "Top 3",
+  "title": "Projetos em destaque",
+  "subtitle": "Priorizei os projetos que melhor mostram capacidade de entrega, contexto técnico e maturidade.",
+  "items": [
+    {
+      "ey": "Destaque",
+      "title": "ERP de mercadorias",
+      "status": "public",
+      "summary": "ERP desktop em Java para centralizar cadastros e reduzir retrabalho na operação diária.",
+      "details": [
+        "Problema: cadastros espalhados e rotina manual demais.",
+        "Resultado: dados centralizados e consulta mais rápida para a operação.",
+        "Stack: Java + Swing (JFrame).",
+        "Arquitetura: camadas separadas para tela e regra de negócio."
+      ],
+      "tags": ["Java", "Swing", "ERP", "MVC"],
+      "links": [
+        {
+          "label": "Código",
+          "href": "https://github.com/VictorCharles/balanco-geral-de-mercadoria-Java",
+          "ghost": true,
+          "target": "_blank"
+        },
+        {
+          "label": "Demo",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "ey": "Privado",
+      "title": "Automação interna de processos",
+      "status": "private",
+      "summary": "Aplicação web para automatizar um fluxo específico e cortar tarefas repetitivas do cliente.",
+      "details": [
+        "Problema: processo manual, sujeito a erro e difícil de padronizar.",
+        "Resultado: fluxo mais consistente e menos retrabalho operacional.",
+        "Stack: Angular no front-end.",
+        "Meu papel: desenvolvimento e manutenção evolutiva."
+      ],
+      "tags": ["Angular", "Front-end", "Sistema interno"],
+      "links": [
+        {
+          "label": "Código",
+          "disabled": true
+        },
+        {
+          "label": "Demo",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "ey": "Mobile",
+      "title": "Ioioteca",
+      "status": "private",
+      "summary": "App de troca de livros para facilitar descobertas e incentivar reutilização.",
+      "details": [
+        "Problema: facilitar troca e descoberta de livros entre pessoas.",
+        "Resultado: experiência mobile simples, direta e rápida.",
+        "Stack: Flutter + Dart.",
+        "Diferencial: interface leve para uso recorrente."
+      ],
+      "tags": ["Flutter", "Dart", "Mobile"],
+      "links": [
+        {
+          "label": "Código",
+          "disabled": true
+        },
+        {
+          "label": "Demo",
+          "disabled": true
+        }
+      ]
+    }
+  ]
+}

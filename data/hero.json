@@ -1,0 +1,58 @@
+{
+  "name": "Victor Charles",
+  "ey": "Projetos com contexto, impacto e nível técnico",
+  "title": "Portfólio",
+  "subtitle": "Destaques primeiro, histórico depois.",
+  "focusTitle": "Foco atual",
+  "focus": [
+    "APIs com NestJS",
+    "Observabilidade, logs e tracing",
+    "Docker e automação de ambiente"
+  ],
+  "solveTitle": "O que eu resolvo",
+  "solve": [
+    "APIs escaláveis com NestJS",
+    "Integração com ERPs",
+    "Sistemas com alta observabilidade",
+    "Automação de processos"
+  ],
+  "metricsTitle": "Métricas",
+  "metrics": [
+    {
+      "value": "40%",
+      "label": "de redução de latência em otimizações pontuais"
+    },
+    {
+      "value": "OpenTelemetry",
+      "label": "observabilidade e tracing distribuído"
+    },
+    {
+      "value": "Alta carga",
+      "label": "sistemas estáveis em picos de uso"
+    }
+  ],
+  "aboutTitle": "Sobre mim",
+  "about": "Gosto de resolver problemas complexos no backend, principalmente em performance, integrações e observabilidade.",
+  "developTitle": "Como eu desenvolvo sistemas",
+  "develop": [
+    "Logging estruturado (Pino + OpenTelemetry)",
+    "Métricas com Prometheus",
+    "Tracing distribuído"
+  ],
+  "cta": [
+    {
+      "label": "Vamos conversar",
+      "href": "#contato"
+    },
+    {
+      "label": "Ver meu GitHub",
+      "href": "https://github.com/VictorCharles",
+      "target": "_blank"
+    },
+    {
+      "label": "Agendar uma call",
+      "href": "mailto:vcharles923@gmail.com?subject=Portf%C3%B3lio%20Victor%20Charles"
+    }
+  ],
+  "terminal": "> status: construindo coisas úteis com foco em performance e observabilidade"
+}
